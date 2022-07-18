@@ -23,7 +23,7 @@ Run the command below from the Terminal:
       
 To check my website online, Please check the following link.
 
-     https://degisew.github.io
+     https://degisew.github.io/
 
 
 ## Authors
