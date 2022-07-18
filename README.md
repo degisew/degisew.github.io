@@ -8,7 +8,7 @@ For this portfolio website, I implemented Html And Css that includes the project
 
 - HTML
 - CSS
-- Linter
+- Linters
 
 ## Get Started
 
@@ -19,7 +19,7 @@ Run the command below from the Terminal:
 
       git clone <URL> 'https://github.com/degisew/portfolio' in your terminal
 
-	  cd mobile-skeleton
+	  cd Desktop-version
 
 
 ## Authors
@@ -27,17 +27,9 @@ Run the command below from the Terminal:
 👤 **Degisew**
 
 - Location: Ethiopia
-- GitHub: [@jegisew21](https://github.com/degisew)
+- GitHub: [degisew](https://github.com/degisew)
 - Twitter: [@DJ_etiya](https://twitter.com/Degisew-mengist)
 - LinkedIn: [jegisew21](https://www.linkedin.com/in/degisew-mengist-003298802)
-
-
-👤 **Saeqa Sultani**
-
-- Location: Afghanistan
-- GitHub: [SaeqaSultani](https://github.com/SaeqaSultani)
-- Twitter: [SaeqaSultani](https://twitter.com/SaeqaSultani)
-- LinkedIn: [SaeqaSultani](https://www.linkedin.com/in/saeqa-sultani-b41493187/)
 
 
 ## 🤝 Contributing
