@@ -2,9 +2,11 @@
   margin: 0;
   padding: 0;
 }
+
 body {
   overflow-x: hidden;
 }
+
 .main {
   display: grid;
   gap: 40px;
@@ -125,17 +127,17 @@ body {
   order: 2;
 }
 
+.desktop-left-block-1 {
+  margin: 15px 15px 15px 25px;
+  border-radius: 8px;
+}
+
 .desktop-right-block-1:hover {
   transform: scale(1.1);
 }
 
 .desktop-left-block-1:hover {
   transform: scale(1.1);
-}
-
-.desktop-left-block-1 {
-  margin: 15px 15px 15px 25px;
-  border-radius: 8px;
 }
 
 .card-images {
