@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .main {
   display: grid;
   gap: 40px;
@@ -123,17 +127,17 @@
   order: 2;
 }
 
+.desktop-left-block-1 {
+  margin: 15px 15px 15px 25px;
+  border-radius: 8px;
+}
+
 .desktop-right-block-1:hover {
   transform: scale(1.1);
 }
 
 .desktop-left-block-1:hover {
   transform: scale(1.1);
-}
-
-.desktop-left-block-1 {
-  margin: 15px 15px 15px 25px;
-  border-radius: 8px;
 }
 
 .card-images {
@@ -270,6 +274,10 @@
 
 .desktop-lang-list img {
   width: 100%;
+}
+
+.desktop-lang-list img:hover {
+  transform: scale(1.1);
 }
 
 .skills-all-contnr {
