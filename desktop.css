@@ -264,22 +264,6 @@ body {
   display: flex;
 }
 
-.desktop-lang-list {
-  padding-right: 10px;
-  margin-top: 20px;
-  margin-bottom: 15px;
-  display: flex;
-  float: left;
-}
-
-.desktop-lang-list img {
-  width: 100%;
-}
-
-.desktop-lang-list img:hover {
-  transform: scale(1.1);
-}
-
 .skills-all-contnr {
   width: 100%;
   margin-bottom: 20px;
@@ -305,6 +289,22 @@ body {
   display: flex;
   width: 20px;
   height: 25px;
+}
+
+.desktop-lang-list {
+  padding-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  display: flex;
+  float: left;
+}
+
+.desktop-lang-list img {
+  width: 100%;
+}
+
+.desktop-lang-list img:hover {
+  transform: scale(1.1);
 }
 
 .separator {
