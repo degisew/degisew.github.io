@@ -21,9 +21,10 @@ Run the command below from the Terminal:
 
 	  cd Desktop-version
       
-To check my website online, Please check the following link.
 
-     https://degisew.github.io/
+## Live Demo
+
+[Live demo](https://degisew.github.io/)
 
 
 ## Authors
