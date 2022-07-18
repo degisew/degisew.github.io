@@ -20,6 +20,10 @@ Run the command below from the Terminal:
       git clone <URL> 'https://github.com/degisew/portfolio' in your terminal
 
 	  cd Desktop-version
+      
+To check my website online, Please check the following link.
+
+     https://degisew.github.io
 
 
 ## Authors
