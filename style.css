@@ -38,6 +38,9 @@ body {
 }
 
 .my-logo {
+  animation-name: rotate;
+  animation-duration: 3s;
+  animation-delay: 1s;
   padding-left: 20px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -151,7 +154,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #5d6dfc;
+  color: #7f8cff;
 }
 
 .social-media-icons {
@@ -306,7 +309,7 @@ body {
   margin-bottom: 27px;
   gap: 8px;
   order: 2;
-  color: rgb(132, 28, 230);
+  color: blueviolet;
 }
 
 .html {
@@ -314,7 +317,7 @@ body {
   width: 50px;
   border-radius: 10px;
   padding-top: 4px;
-  background-color: hsl(234, 63%, 85%);
+  background-color: hsl(234, 68%, 81%);
   text-align: center;
 }
 
@@ -323,7 +326,7 @@ body {
   width: 100px;
   border-radius: 10px;
   padding-top: 4px;
-  background-color: hsl(234, 63%, 85%);
+  background-color: hsl(234, 68%, 81%);
   text-align: center;
 }
 
@@ -332,7 +335,7 @@ body {
   width: 40px;
   border-radius: 10px;
   padding-top: 4px;
-  background-color: hsl(234, 63%, 85%);
+  background-color: hsl(234, 68%, 81%);
   text-align: center;
 }
 
@@ -341,7 +344,7 @@ body {
   width: 80px;
   border-radius: 10px;
   padding-top: 4px;
-  background-color: hsl(234, 63%, 85%);
+  background-color: hsl(234, 68%, 81%);
   text-align: center;
 }
 
@@ -357,7 +360,7 @@ input[type="submit"] {
   border-radius: 10px;
   font-weight: bolder;
   font-size: 15px;
-  color: #0d24f4;
+  color: #6070ff;
   font-family: "Poppins", sans-serif;
   order: 3;
 }
