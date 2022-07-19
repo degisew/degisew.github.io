@@ -38,9 +38,6 @@ body {
 }
 
 .my-logo {
-  animation-name: rotate;
-  animation-duration: 3s;
-  animation-delay: 1s;
   padding-left: 20px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
