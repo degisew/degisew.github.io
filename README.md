@@ -8,6 +8,7 @@ For this portfolio website, I implemented Html And Css that includes the project
 
 - HTML
 - CSS
+- javaScript
 - Linters
 
 ## Get Started

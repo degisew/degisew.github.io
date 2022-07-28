@@ -38,7 +38,7 @@ body {
   color: #6070ff;
 }
 
-.drawer-icon {
+.nav-menu {
   display: none;
 }
 
@@ -55,6 +55,10 @@ body {
   justify-content: space-between;
   font-size: 20px;
   color: black;
+}
+
+#backdrop.visible {
+  display: none;
 }
 
 .sub-section-of-1 {
@@ -200,7 +204,7 @@ body {
 }
 
 .about-me {
-  padding: 10 0 10px 15px;
+  padding: 10px 0 10px 15px;
   display: flex;
 }
 
