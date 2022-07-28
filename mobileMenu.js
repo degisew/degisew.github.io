@@ -5,20 +5,20 @@ const contactAnchor = menuLinks.querySelector('#anchor-about');
 const aboutAnchor = menuLinks.querySelector('#anchor-contact');
 const backdrop = document.getElementById('backdrop');
 const closeBtn = backdrop.querySelector('.btn-close');
-menuButton.addEventListener('click', ()=>{
-    // menuLinks.classList.toggle("visible");
-    backdrop.classList.toggle("visible");
-})
-closeBtn.addEventListener('click', ()=>{
-// alert('clicked');
-    backdrop.classList.toggle('visible');
-})
+menuButton.addEventListener('click', () => {
+  backdrop.classList.toggle('visible');
+  document.body.style.overflow = 'hidden';
+});
+closeBtn.addEventListener('click', () => {
+  backdrop.classList.toggle('visible');
+  document.body.style.overflow = 'visible';
+});
 
-aboutAnchor.addEventListener('click', ()=>{
-    //  alert('clicked');
-    backdrop.classList.toggle("visible");
-})
-contactAnchor.addEventListener('click', ()=>{
-    //  alert('clicked');
-    backdrop.classList.toggle("visible");
-})
+aboutAnchor.addEventListener('click', () => {
+  backdrop.classList.toggle('visible');
+  document.body.style.overflow = 'visible';
+});
+contactAnchor.addEventListener('click', () => {
+  backdrop.classList.toggle('visible');
+  document.body.style.overflow = 'visible';
+});

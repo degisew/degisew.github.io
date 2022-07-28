@@ -52,11 +52,10 @@
 }
 
 #backdrop button {
-  background-color: inherit;
+  background-color: transparent;
   color: white;
   font-size: 35px;
   width: fit-content;
-  height: fit-content;
   float: right;
   margin-right: 20px;
   border: none;
@@ -72,13 +71,11 @@
   font-size: x-large;
 }
 
-
 #menu-links {
   margin-top: 40px;
   display: flex;
   flex-direction: column;
   width: fit-content;
-  height: fit-content;
 }
 
 .my-logo {
