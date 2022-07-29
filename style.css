@@ -33,6 +33,110 @@
   display: none;
 }
 
+#popup-detail-window {
+  display: none;
+  position: fixed;
+  background-color: white;
+  /* width: 100%; */
+  height: 100%;
+  pointer-events: all;
+  border-radius: 16px;
+  margin: 0 20px 0 10px;
+}
+
+#popup-detail-window.visible {
+  display: block;
+  /* margin-left: 10px;
+    margin-right: 10px; */
+  border: 1px solid #dfe1e6;
+
+  /* padding-left: 15px; */
+  pointer-events: all;
+
+}
+
+#popup-menu-close-btn {
+  background-color: inherit;
+  position: relative;
+  font-size: 35px;
+  width: fit-content;
+  height: fit-content;
+  float: right;
+  margin-right: 20px;
+  /* border: none; */
+}
+
+.popup-btn {
+  display: flex;
+  width: 100%;
+}
+
+.popup-see-btn {
+  transition-property: background-color, height, width;
+  transition-duration: 1s;
+  transition-delay: 0s;
+  margin-left: 20px;
+  border-color: #6070ff;
+  background-color: white;
+  width: 144px;
+  height: 50px;
+  border-radius: 10px;
+  font-weight: bolder;
+  font-size: 15px;
+  color: #0d24f4;
+  font-family: "Poppins", sans-serif;
+  order: 3;
+}
+
+.inside-popup-btn-div {
+  justify-content: space-around;
+  /* padding: 10px; */
+  display: flex;
+}
+
+.popup-block-1-and-2-div {
+  display: block;
+}
+
+.popup-image {
+  display: flex;
+  flex-direction: column;
+  grid-column: auto;
+  margin: 20px 20px 20px 20px;
+  border-radius: 8px;
+}
+
+.popup-descrptn {
+  display: flex;
+  max-width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: justify;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.popup-block2-div {
+  display: block;
+}
+
+.popup-tech-btn-div {
+  display: block;
+}
+
+.ul-div {
+  display: block;
+}
+
+.see-anchor {
+  text-decoration-line: none;
+  color: blue;
+}
+
 #backdrop {
   background-color: rgb(31, 35, 223);
   width: 100%;
@@ -124,7 +228,7 @@
   display: flex;
   background-repeat: no-repeat;
   background-size: 100%;
-  background-image: url(../images/header-shapes-mobile.jpg);
+  background-image: url(./images/header-shapes-mobile.jpg);
 }
 
 .sub-div-of-sub-section-1 {
@@ -424,7 +528,7 @@ input[type="submit"]:hover {
 }
 
 .about-my-self {
-  background-image: url(../images/aboutmyself.png);
+  background-image: url(./images/aboutmyself.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -475,7 +579,7 @@ input[type="submit"]:hover {
 
 .contact-form {
   background: #6070ff;
-  background-image: url(../images/contact-form-img.png);
+  background-image: url(./images/contact-form-img.png);
   background-repeat: no-repeat;
   background-size: cover;
   border-top-left-radius: 75px;

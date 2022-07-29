@@ -57,13 +57,50 @@ body {
   color: black;
 }
 
+#popup-detail-window.visible {
+  display: block;
+  border: 1px solid #dfe1e6;
+  padding-right: 15px;
+  margin-right: 0;
+  margin-left: 0;
+  pointer-events: all;
+
+}
+
+.popup-block-1-and-2-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.popup-image img {
+  display: flex;
+  height: 400px;
+  grid-column: auto;
+  margin: 5px 20px 20px 10px;
+  border-radius: 8px;
+}
+
+.popup-block2-div {
+  display: flex;
+}
+
+.popup-tech-and-see-btns-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.ul-div {
+  margin-top: 20px;
+  display: flex;
+}
+
 #backdrop.visible {
   display: none;
 }
 
 .sub-section-of-1 {
   display: flex;
-  background-image: url(../images/desktop-1st-screen-bkg.png);
+  background-image: url(./images/desktop-1st-screen-bkg.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -198,7 +235,7 @@ body {
 .about-my-self {
   display: flex;
   border-top-right-radius: 80px;
-  background-image: url(../images/desktop-about-myself-backg.png);
+  background-image: url(./images/desktop-about-myself-backg.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -328,7 +365,7 @@ body {
 .contact-form {
   display: flex;
   background: #6070ff;
-  background-image: url(../images/desktop-contact-form-bkg.png);
+  background-image: url(./images/desktop-contact-form-bkg.png);
   border-top-left-radius: 75px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -337,12 +374,14 @@ body {
 .contact-me-descrptn {
   width: 370px;
   text-align: left;
+  font-family: "Poppins", sans-serif;
   margin-bottom: 10px;
   font-size: 15px;
 }
 
 #Contact-me-title {
   display: flex;
+  font-family: "Poppins", sans-serif;
 }
 
 .form {
