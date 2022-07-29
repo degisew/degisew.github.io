@@ -158,16 +158,33 @@ let projects = [
 
 const btn1 = document.getElementById("0");
 const submitBtn = document.querySelectorAll(".btn-submit");
-const closePopupBtn = document.getElementById("popup-menu-close-btn");
+// const closePopupBtn = document.getElementById("popup-menu-close-btn");
 var popupWindow = document.getElementById("popup-detail-window");
+const popupContainer = document.getElementById("popup-element-container");
+
+/* <button type="button" id="popup-menu-close-btn">
+  X
+</button>; */
+
+const closePopupBtn = document.createElement("button");
+closePopupBtn.type = "button";
+closePopupBtn.id = "popup-menu-close-btn";
+closePopupBtn.innerHTML = '<span>X</span>'
+
 submitBtn.forEach((element) => {
   element.addEventListener("click", (e) => {
     const targetId = e.target.id;
     const project = projects[targetId];
-    popupWindow.innerHTML =
-      popupWindow.innerHTML +
-      `
-      <div>
+
+
+const fun = ()=>{
+  alert('hello');
+}
+
+// popupWindow.insertAdjacentHTML("beforebegin" , closePopupBtn);
+
+    popupWindow.classList.add("visible");
+    popupContainer.innerHTML = ` 
       <h2 class="tonic">
       ${project.title}
       </h2>
@@ -184,33 +201,33 @@ submitBtn.forEach((element) => {
         ${project.frame.year}
         </p>
         </div>
-       <div class="popup-block-1-and-2-div">
+       <div class="popup-image-and-descrpt-btn-div ">
         <div class="popup-image">
-        <image src="${project.Image}"></image>
+        <img src="${project.Image}"></img>
         </div>
-       <div class="popup-block2-div">
+       <div class="popup-all-below-image-div">
         <div class="popup-descrptn">
-        </p>
+        </p class="popup-descrptn">
         ${project.description}
         <p>
         </div>
         <div class="popup-tech-and-see-btns-div">
         <div class="ul-div">
-          <ul class="sub-block-3">
+          <ul>
             <li class="html">${project.technoloies.html}</li>
             <li class="css">${project.technoloies.css}</li>
             <li class="javascript">${project.technoloies.javascript}</li>
           </ul>
         </div>
-        <div class="popup-btn">
+        <div class="popup-link-btn-div">
         <button type="submit" value="See live" class= "popup-see-btn">
-        <div class="inside-popup-btn-div">
+        <div class="popup-see-link-txt-and-icon-div">
 
         <a href="${project.demoLink}" class="see-anchor"><h3>See live</h3></a>
         <img src="./images/seelive.png"/></div>
         </button>
         <button type="submit" class= "popup-see-btn">
-        <div class="inside-popup-btn-div">
+        <div class="popup-see-link-txt-and-icon-div">
         <a href="${project.githubLink}" class="see-anchor"><h3>See Source</h3></a>
         <img src="./images/popupgihubicon.png"/></div>
         </button>
@@ -218,12 +235,15 @@ submitBtn.forEach((element) => {
       </div>
        </div>
        </div>
-        </div> `;
-    popupWindow.classList.toggle("visible");
+       `;
+       popupContainer.prepend(closePopupBtn);
+    // popupWindow.classList.toggle("visible");
     document.body.style.overflow = 'hidden';
- });
+  });
 });
-closePopupBtn.addEventListener("click", (e)=> {
- console.log('text');
-// e.preventDefault();
+closePopupBtn.addEventListener("click", (e) => {
+  popupWindow.classList.remove("visible");
+  document.body.style.overflow = "scroll";
+
+  // e.preventDefault();
 });

@@ -57,41 +57,28 @@ body {
   color: black;
 }
 
-#popup-detail-window.visible {
-  display: block;
-  border: 1px solid #dfe1e6;
-  padding-right: 15px;
-  margin-right: 0;
-  margin-left: 0;
-  pointer-events: all;
-
+#popup-element-container {
+  margin-left: 300px;
 }
 
-.popup-block-1-and-2-div {
+.popup-image {
   display: flex;
-  flex-direction: column;
+  /* width: 100%; */
+  margin: 15px;
 }
-
 .popup-image img {
-  display: flex;
-  height: 400px;
-  grid-column: auto;
-  margin: 5px 20px 20px 10px;
-  border-radius: 8px;
+  width: 100%
+  
 }
 
-.popup-block2-div {
+.popup-all-below-image-div {
   display: flex;
+  flex-direction: row;
+  margin: 0 15px 15px 15px;
 }
 
-.popup-tech-and-see-btns-div {
-  display: flex;
-  flex-direction: column;
-}
-
-.ul-div {
-  margin-top: 20px;
-  display: flex;
+.popup-descrptn {
+  margin-right: 15px;
 }
 
 #backdrop.visible {
