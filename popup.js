@@ -224,6 +224,7 @@ submitBtn.forEach((element) => {
  });
 });
 closePopupBtn.addEventListener("click", (e)=> {
- console.log('text');
+  popupWindow.classList.toggle("visible");
+//  console.log('text');
 // e.preventDefault();
 });
