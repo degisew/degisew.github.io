@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./desktop.css" media="(min-width:768px)" />
     <script src="mobileMenu.js" defer></script>
     <script src="popup.js" defer></script>
+    <script src="validateForm.js" defer></script>
   </head>
 
   <body>
@@ -475,7 +476,8 @@
               required
               name="mail"
               id="client-email"
-            /><br />
+            />
+            <span id="email-error" class="error"></span><br />
             <label for="client-message" hidden>Message</label
             ><textarea
               name="client-message"
