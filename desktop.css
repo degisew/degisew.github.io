@@ -63,12 +63,13 @@ body {
 
 .popup-image {
   display: flex;
+
   /* width: 100%; */
   margin: 15px;
 }
+
 .popup-image img {
-  width: 100%
-  
+  width: 100%;
 }
 
 .popup-all-below-image-div {
