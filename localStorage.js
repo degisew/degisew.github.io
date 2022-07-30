@@ -1,7 +1,7 @@
 const userName = document.getElementById('client-name');
 const userEmail = document.getElementById('client-email');
 const userMessage = document.getElementById('client-message');
-const form = document.getElementsByClassName('form');
+const form = document.getElementsByTagName('form')['0'];
 const userInput = {
   un: userName.value,
   email: userEmail.value,
