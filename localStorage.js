@@ -1,12 +1,11 @@
-
 const userName = document.getElementById('client-name');
 const userEmail = document.getElementById('client-email');
 const userMessage = document.getElementById('client-message');
 
-let userInput = {
-    un: userName.value,
-    email: userEmail.value,
-    message: userMessage.value,
+const userInput = {
+  un: userName.value,
+  email: userEmail.value,
+  message: userMessage.value,
 };
 
 localStorage.setItem('userData', JSON.stringify(userInput));
