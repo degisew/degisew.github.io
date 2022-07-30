@@ -58,7 +58,7 @@ body {
 }
 
 #popup-element-container {
-  margin-left: 300px;
+  margin-left: 60px;
 }
 
 .popup-image {
@@ -74,6 +74,12 @@ body {
   display: flex;
   flex-direction: row;
   margin: 0 15px 15px 15px;
+}
+
+.popup-link-btn-div {
+  display: flex;
+  justify-content: space-around;
+  width: 300px;
 }
 
 .popup-descrptn {
