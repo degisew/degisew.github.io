@@ -8,6 +8,7 @@ const userInput = {
   message: userMessage.value,
 };
 
+
 localStorage.setItem('userData', JSON.stringify(userInput));
 const test = localStorage.getItem('userData');
 const parsedData = JSON.parse(test);
