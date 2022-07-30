@@ -1,175 +1,175 @@
 const projects = [
   {
-    title: "Tonic",
+    title: 'Tonic',
     frame: {
-      canopy: "Canopy",
+      canopy: 'Canopy',
       disc: '<img src="./images/Counter.png" alt="counter year" />',
-      backDev: "backend dev",
+      backDev: 'backend dev',
       year: 2015,
     },
-    Image: "./images/card-1.png",
+    Image: './images/card-1.png',
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent.",
     technoloies: {
-      html: "html",
-      css: "css",
-      javascript: "javaScript",
+      html: 'html',
+      css: 'css',
+      javascript: 'javaScript',
     },
-    githubLink: "https://github.com/degisew/degisew.github.io",
-    demoLink: "https://degisew.github.io",
+    githubLink: 'https://github.com/degisew/degisew.github.io',
+    demoLink: 'https://degisew.github.io',
   },
   {
-    title: "Multipost Stories",
+    title: 'Multipost Stories',
     frame: {
-      canopy: "Canopy",
+      canopy: 'Canopy',
       disc: '<img src="./images/Counter.png" alt="counter year" />',
-      backDev: "backend dev",
+      backDev: 'backend dev',
       year: 2015,
     },
-    Image: "./images/card-2.png",
+    Image: './images/card-2.png',
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent.",
     technoloies: {
-      html: "html",
-      css: "css",
-      javascript: "javaScript",
+      html: 'html',
+      css: 'css',
+      javascript: 'javaScript',
     },
-    githubLink: "https://github.com/degisew/degisew.github.io",
-    demoLink: "https://degisew.github.io",
+    githubLink: 'https://github.com/degisew/degisew.github.io',
+    demoLink: 'https://degisew.github.io',
   },
   {
-    title: "Tonic",
+    title: 'Tonic',
     frame: {
-      canopy: "Canopy",
+      canopy: 'Canopy',
       disc: '<img src="./images/Counter.png" alt="counter year" />',
-      backDev: "backend dev",
+      backDev: 'backend dev',
       year: 2015,
     },
-    Image: "./images/card-3.png",
+    Image: './images/card-3.png',
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent.",
     technoloies: {
-      html: "html",
-      css: "css",
-      javascript: "javaScript",
+      html: 'html',
+      css: 'css',
+      javascript: 'javaScript',
     },
-    githubLink: "https://github.com/degisew/degisew.github.io",
-    demoLink: "https://degisew.github.io",
+    githubLink: 'https://github.com/degisew/degisew.github.io',
+    demoLink: 'https://degisew.github.io',
   },
   {
-    title: "Multipost stories",
+    title: 'Multipost stories',
     frame: {
-      canopy: "Canopy",
+      canopy: 'Canopy',
       disc: '<img src="./images/Counter.png" alt="counter year" />',
-      backDev: "backend dev",
+      backDev: 'backend dev',
       year: 2015,
     },
-    Image: "./images/card-4.png",
+    Image: './images/card-4.png',
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent.",
     technoloies: {
-      html: "html",
-      css: "css",
-      javascript: "javaScript",
+      html: 'html',
+      css: 'css',
+      javascript: 'javaScript',
     },
-    githubLink: "https://github.com/degisew/degisew.github.io",
-    demoLink: "https://degisew.github.io",
+    githubLink: 'https://github.com/degisew/degisew.github.io',
+    demoLink: 'https://degisew.github.io',
   },
   {
-    title: "Tonic",
+    title: 'Tonic',
     frame: {
-      canopy: "Canopy",
+      canopy: 'Canopy',
       disc: '<img src="./images/Counter.png" alt="counter year" />',
-      backDev: "backend dev",
+      backDev: 'backend dev',
       year: 2015,
     },
-    Image: "./images/desktop-card1.png",
+    Image: './images/desktop-card1.png',
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent.",
     technoloies: {
-      html: "html",
-      css: "css",
-      javascript: "javaScript",
+      html: 'html',
+      css: 'css',
+      javascript: 'javaScript',
     },
-    githubLink: "https://github.com/degisew/degisew.github.io",
-    demoLink: "https://degisew.github.io",
+    githubLink: 'https://github.com/degisew/degisew.github.io',
+    demoLink: 'https://degisew.github.io',
   },
   {
-    title: "Multi post Stories",
+    title: 'Multi post Stories',
     frame: {
-      canopy: "Facebook",
+      canopy: 'Facebook',
       disc: '<img src="./images/Counter.png" alt="counter year" />',
-      backDev: "full-stack dev",
+      backDev: 'full-stack dev',
       year: 2015,
     },
-    Image: "./images/desktop-card2.png",
+    Image: './images/desktop-card2.png',
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent.",
     technoloies: {
-      html: "html",
-      ruby: "Ruby on Rils",
-      css: "css",
-      javascript: "javaScript",
+      html: 'html',
+      ruby: 'Ruby on Rils',
+      css: 'css',
+      javascript: 'javaScript',
     },
-    githubLink: "https://github.com/degisew/degisew.github.io",
-    demoLink: "https://degisew.github.io",
+    githubLink: 'https://github.com/degisew/degisew.github.io',
+    demoLink: 'https://degisew.github.io',
   },
   {
-    title: "Facebook 360",
+    title: 'Facebook 360',
     frame: {
-      canopy: "Facebook",
+      canopy: 'Facebook',
       disc: '<img src="./images/Counter.png" alt="counter year" />',
-      backDev: "full-stack dev",
+      backDev: 'full-stack dev',
       year: 2015,
     },
-    Image: "./images/desktop-card3.png",
+    Image: './images/desktop-card3.png',
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent.",
     technoloies: {
-      html: "html",
-      ruby: "Ruby on Rils",
-      css: "css",
-      javascript: "javaScript",
+      html: 'html',
+      ruby: 'Ruby on Rils',
+      css: 'css',
+      javascript: 'javaScript',
     },
-    githubLink: "https://github.com/degisew/degisew.github.io",
-    demoLink: "https://degisew.github.io",
+    githubLink: 'https://github.com/degisew/degisew.github.io',
+    demoLink: 'https://degisew.github.io',
   },
   {
-    title: "Uber Navigation",
+    title: 'Uber Navigation',
     frame: {
-      canopy: "Uber",
+      canopy: 'Uber',
       disc: '<img src="./images/Counter.png" alt="counter year" />',
-      backDev: "Lead developer",
+      backDev: 'Lead developer',
       year: 2018,
     },
-    Image: "./images/desktop-card4.png",
+    Image: './images/desktop-card4.png',
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent.",
     technoloies: {
-      html: "html",
-      ruby: "Ruby on Rils",
-      css: "css",
-      javascript: "javaScript",
+      html: 'html',
+      ruby: 'Ruby on Rils',
+      css: 'css',
+      javascript: 'javaScript',
     },
-    githubLink: "https://github.com/degisew/degisew.github.io",
-    demoLink: "https://degisew.github.io",
+    githubLink: 'https://github.com/degisew/degisew.github.io',
+    demoLink: 'https://degisew.github.io',
   },
 ];
 
-const submitBtn = document.querySelectorAll(".btn-submit");
-const popupWindow = document.getElementById("popup-detail-window");
-const popupContainer = document.getElementById("popup-element-container");
-const closePopupBtn = document.createElement("button");
-closePopupBtn.type = "button";
-closePopupBtn.id = "popup-menu-close-btn";
-closePopupBtn.innerHTML = "<span>X</span>";
+const submitBtn = document.querySelectorAll('.btn-submit');
+const popupWindow = document.getElementById('popup-detail-window');
+const popupContainer = document.getElementById('popup-element-container');
+const closePopupBtn = document.createElement('button');
+closePopupBtn.type = 'button';
+closePopupBtn.id = 'popup-menu-close-btn';
+closePopupBtn.innerHTML = '<span>X</span>';
 
 submitBtn.forEach((element) => {
-  element.addEventListener("click", (e) => {
+  element.addEventListener('click', (e) => {
     const targetId = e.target.id;
     const project = projects[targetId];
 
-    popupWindow.classList.add("visible");
+    popupWindow.classList.add('visible');
     popupContainer.innerHTML = ` 
       <h2 class="tonic">
       ${project.title}
@@ -223,12 +223,12 @@ submitBtn.forEach((element) => {
        </div>
        `;
     popupContainer.prepend(closePopupBtn);
-    document.body.style.overflow = "hidden";
+    document.body.style.overflow = 'hidden';
   });
 });
-closePopupBtn.addEventListener("click", () => {
-  popupWindow.classList.remove("visible");
-  document.body.style.overflow = "scroll";
+closePopupBtn.addEventListener('click', () => {
+  popupWindow.classList.remove('visible');
+  document.body.style.overflow = 'scroll';
 
   // e.preventDefault();
 });
