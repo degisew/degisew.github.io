@@ -53,9 +53,9 @@
   background-color: white;
   border: 1px solid #dfe1e6;
   border-radius: 10px;
-  width: 50%;
+  width: 90%;
   flex-wrap: wrap;
-  margin: 20px 0 20px 160px;
+  margin: 20px 0 20px 20px;
 }
 
 #popup-menu-close-btn {
@@ -120,7 +120,7 @@
 .popup-link-btn-div {
   display: flex;
   justify-content: space-around;
-  width: 100%;
+  width: 300px;
 }
 
 .popup-see-link-txt-and-icon-div {
