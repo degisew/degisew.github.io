@@ -229,6 +229,4 @@ submitBtn.forEach((element) => {
 closePopupBtn.addEventListener('click', () => {
   popupWindow.classList.remove('visible');
   document.body.style.overflow = 'scroll';
-
-  // e.preventDefault();
 });
