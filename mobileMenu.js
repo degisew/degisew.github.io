@@ -12,7 +12,7 @@ menuButton.addEventListener('click', () => {
 });
 closeBtn.addEventListener('click', () => {
   backdrop.classList.toggle('visible');
-  document.body.style.overflow = 'visible';
+  document.body.style.overflow = 'scroll';
 });
 
 aboutAnchor.addEventListener('click', () => {
