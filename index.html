@@ -8,9 +8,17 @@
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="./desktop.css" media="(min-width:768px)" />
     <script src="mobileMenu.js" defer></script>
+    <script src="popup.js" defer></script>
   </head>
 
   <body>
+      <div id="popup-detail-window">
+        <div id="popup-element-container">
+          
+        </div>
+      </div>
+       
+
     <div id="backdrop">
       <button type="button" class="btn-close"><span>&times;</span></button>
       <div id="menu-links">
@@ -30,7 +38,7 @@
           </div>
           <button class="nav-menu" type="button">
             <img
-              src="../images/Union.png"
+              src="./images/Union.png"
               alt="Menu drawer icon"
               class="drawer-icon"
             />
@@ -53,27 +61,27 @@
               <h3>LET'S CONNECT</h3>
             </div>
             <div class="social-media-icons">
-              <img src="../images/twitter.png" alt="twitter icon" />
-              <img src="../images/Linkedinicon.png" alt="linkedin icon" />
-              <img src="../images/M.png" alt="medium icon" />
-              <img src="../images/github.png" alt="github icon" />
-              <img src="../images/fingers.png" alt="angellist icon" />
+              <img src="./images/twitter.png" alt="twitter icon" />
+              <img src="./images/Linkedinicon.png" alt="linkedin icon" />
+              <img src="./images/M.png" alt="medium icon" />
+              <img src="./images/github.png" alt="github icon" />
+              <img src="./images/fingers.png" alt="angellist icon" />
             </div>
           </div>
         </section>
       </section>
       <section class="card-works">
         <div class="block-1">
-          <img src="../images/card-1.png" alt="First project image" />
+          <img src="./images/card-1.png" alt="First project image" />
         </div>
         <div class="block-2">
           <div class="tonic-sub-block-1">
             <h2 class="tonic">Tonic</h2>
             <div class="tonic-frame">
               <p class="canopy">CANOPY</p>
-              <img src="../images/Counter.png" alt="counter back-end-dev" />
+              <img src="./images/Counter.png" alt="counter back-end-dev" />
               <p class="back-end-dev">Back End Dev</p>
-              <img src="../images/Counter.png" alt="counter year" />
+              <img src="./images/Counter.png" alt="counter year" />
               <p class="year">2015</p>
             </div>
           </div>
@@ -88,14 +96,14 @@
             <li class="css">css</li>
             <li class="javascript">javaScript</li>
           </ul>
-          <input type="submit" value="See Project" />
+          <input type="submit" value="See Project" id="0" class="btn-submit"/>
         </div>
       </section>
       <!--###########################################################-->
       <section class="desktop-card-works">
         <div class="desktop-left-block-1">
           <img
-            src="../images/desktop-card1.png"
+            src="./images/desktop-card1.png"
             alt="Desktop project first image"
             class="card-images"
           />
@@ -105,9 +113,9 @@
             <h2 class="tonic">Tonic</h2>
             <div class="tonic-frame">
               <p class="canopy">CANOPY</p>
-              <img src="../images/Counter.png" alt="counter" />
+              <img src="./images/Counter.png" alt="counter" />
               <p class="back-end-dev">Back End Dev</p>
-              <img src="../images/Counter.png" alt="counter" />
+              <img src="./images/Counter.png" alt="counter" />
               <p class="year">2015</p>
             </div>
           </div>
@@ -122,7 +130,7 @@
             <li class="css">css</li>
             <li class="javascript">javaScript</li>
           </ul>
-          <input type="submit" value="See Project" />
+          <input type="submit" value="See Project" id="4" class="btn-submit" />
         </div>
       </section>
       <section class="desktop-card-works">
@@ -131,9 +139,9 @@
             <h2 class="multi-post">Multi Post Stories</h2>
             <div class="multi-post-frame">
               <p class="canopy">FACEBOOK</p>
-              <img src="../images/Counter.png" alt="counter" />
+              <img src="./images/Counter.png" alt="counter" />
               <p class="back-end-dev">Full stack Dev</p>
-              <img src="../images/Counter.png" alt="counter" />
+              <img src="./images/Counter.png" alt="counter" />
               <p class="year">2015</p>
             </div>
           </div>
@@ -150,11 +158,11 @@
             <li class="css">css</li>
             <li class="javascript">javaScript</li>
           </ul>
-          <input type="submit" value="See Project" />
+          <input type="submit" value="See Project" id="5" class="btn-submit"/>
         </div>
         <div class="desktop-right-block-1">
           <img
-            src="../images/desktop-card2.png"
+            src="./images/desktop-card2.png"
             alt="desktop project second image"
             class="card-images"
           />
@@ -163,7 +171,7 @@
       <section class="desktop-card-works">
         <div class="desktop-left-block-1">
           <img
-            src="../images/desktop-card3.png"
+            src="./images/desktop-card3.png"
             alt="desktop project third image"
             class="card-images"
           />
@@ -173,9 +181,9 @@
             <h2 class="tonic">Facebook 360</h2>
             <div class="tonic-frame">
               <p class="canopy">FACEBOOK</p>
-              <img src="../images/Counter.png" alt="counter" />
+              <img src="./images/Counter.png" alt="counter" />
               <p class="back-end-dev">Full Stack Dev</p>
-              <img src="../images/Counter.png" alt="counter" />
+              <img src="./images/Counter.png" alt="counter" />
               <p class="year">2015</p>
             </div>
           </div>
@@ -192,9 +200,9 @@
             <li class="css">css</li>
             <li class="javascript">javaScript</li>
           </ul>
-          <input type="submit" value="See Project" />
+          <input type="submit" value="See Project" id="6" class="btn-submit"/>
           <img
-            src="../images/hand-cursor.png"
+            src="./images/hand-cursor.png"
             alt="hand-cursor"
             class="hand-cursor-img"
           />
@@ -206,9 +214,9 @@
             <h2 class="multi-post">Uber Navigation</h2>
             <div class="multi-post-frame">
               <p class="canopy">Uber</p>
-              <img src="../images/Counter.png" alt="counter" />
+              <img src="./images/Counter.png" alt="counter" />
               <p class="back-end-dev">Lead Developer</p>
-              <img src="../images/Counter.png" alt="counter" />
+              <img src="./images/Counter.png" alt="counter" />
               <p class="year">2018</p>
             </div>
           </div>
@@ -224,11 +232,11 @@
             <li class="css">css</li>
             <li class="javascript">javaScript</li>
           </ul>
-          <input type="submit" value="See Project" />
+          <input type="submit" value="See Project" id="7" class="btn-submit"/>
         </div>
         <div class="desktop-right-block-1">
           <img
-            src="../images/desktop-card4.png"
+            src="./images/desktop-card4.png"
             alt="image-1"
             class="card-images"
           />
@@ -237,16 +245,16 @@
       <!--###########################################################-->
       <section class="card-works">
         <div class="block-1">
-          <img src="../images/card-2.png" alt="Mobile  project second image" />
+          <img src="./images/card-2.png" alt="Mobile  project second image" />
         </div>
         <div class="block-2">
           <div class="multi-post-sub-block-1">
             <h2 class="multi-post">Multi Post Stories</h2>
             <div class="multi-post-frame">
               <p class="canopy">CANOPY</p>
-              <img src="../images/Counter.png" alt="counter" />
+              <img src="./images/Counter.png" alt="counter" />
               <p class="back-end-dev">Back End Dev</p>
-              <img src="../images/Counter.png" alt="counter" />
+              <img src="./images/Counter.png" alt="counter" />
               <p class="year">2015</p>
             </div>
           </div>
@@ -261,22 +269,22 @@
             <li class="css">css</li>
             <li class="javascript">javaScript</li>
           </ul>
-          <input type="submit" value="See Project" />
+          <input type="submit" value="See Project" id="1" class="btn-submit"/>
         </div>
       </section>
 
       <section class="card-works">
         <div class="block-1">
-          <img src="../images/card-3.png" alt="Mobile  project third image" />
+          <img src="./images/card-3.png" alt="Mobile  project third image" />
         </div>
         <div class="block-2">
           <div class="tonic-sub-block-1">
             <h2 class="tonic">Tonic</h2>
             <div class="tonic-frame">
               <p class="canopy">CANOPY</p>
-              <img src="../images/Counter.png" alt="counter" />
+              <img src="./images/Counter.png" alt="counter" />
               <p class="back-end-dev">Back End Dev</p>
-              <img src="../images/Counter.png" alt="counter" />
+              <img src="./images/Counter.png" alt="counter" />
               <p class="year">2015</p>
             </div>
           </div>
@@ -291,21 +299,21 @@
             <li class="css">css</li>
             <li class="javascript">javaScript</li>
           </ul>
-          <input type="submit" value="See Project" />
+          <input type="submit" value="See Project" id="2" class="btn-submit"/>
         </div>
       </section>
       <section class="card-works">
         <div class="block-1">
-          <img src="../images/card-4.png" alt="Mobile  project fourth image" />
+          <img src="./images/card-4.png" alt="Mobile  project fourth image" />
         </div>
         <div class="block-2">
           <div class="multi-post-sub-block-1">
             <h2 class="multi-post">Multi Post Stories</h2>
             <div class="multi-post-frame">
               <p class="canopy">CANOPY</p>
-              <img src="../images/Counter.png" alt="counter" />
+              <img src="./images/Counter.png" alt="counter" />
               <p class="back-end-dev">Back End Dev</p>
-              <img src="../images/Counter.png" alt="counter" />
+              <img src="./images/Counter.png" alt="counter" />
               <p class="year">2015</p>
             </div>
           </div>
@@ -320,7 +328,7 @@
             <li class="css">css</li>
             <li class="javascript">javaScript</li>
           </ul>
-          <input type="submit" value="See Project" />
+          <input type="submit" value="See Project" id="3" class="btn-submit"/>
         </div>
       </section>
       <section class="about-my-self" id="about">
@@ -351,11 +359,11 @@
             <h3>LET'S CONNECT</h3>
           </div>
           <div class="about-my-self-social-md-icons">
-            <img src="../images/github.png" alt="github" />
-            <img src="../images/Linkedinicon.png" alt="linkedin" />
-            <img src="../images/fingers.png" alt="2-fingers-icon" />
-            <img src="../images/twitter.png" alt="twitter" />
-            <img src="../images/M.png" alt="M" />
+            <img src="./images/github.png" alt="github" />
+            <img src="./images/Linkedinicon.png" alt="linkedin" />
+            <img src="./images/fingers.png" alt="2-fingers-icon" />
+            <img src="./images/twitter.png" alt="twitter" />
+            <img src="./images/M.png" alt="M" />
           </div>
           <input
             type="submit"
@@ -366,48 +374,48 @@
         <div class="skills-all-contnr">
           <div class="frameworks">
             <h3>Languages</h3>
-            <img src="../images/languages-icon.png" alt="Languages Icon" />
+            <img src="./images/languages-icon.png" alt="Languages Icon" />
           </div>
           <img
-            src="../images/line-Separator-Bottom.png"
+            src="./images/line-Separator-Bottom.png"
             alt="Line Separator"
             class="separator"
           />
           <ul class="skills">
             <li>
               <img
-                src="../images/js.png"
+                src="./images/js.png"
                 alt="Javascript Logo"
                 class="lang-list"
               />
             </li>
             <li>
               <img
-                src="../images/html.png"
+                src="./images/html.png"
                 alt="HTML5 Logo"
                 class="lang-list"
               />
             </li>
             <li>
-              <img src="../images/css.png" alt="CSS Logo" class="lang-list" />
+              <img src="./images/css.png" alt="CSS Logo" class="lang-list" />
             </li>
             <li>
               <img
-                src="../images/desktop-js.png"
+                src="./images/desktop-js.png"
                 alt="Javascript Logo for desktop version"
                 class="desktop-lang-list"
               />
             </li>
             <li>
               <img
-                src="../images/desktop-html.png"
+                src="./images/desktop-html.png"
                 alt="HTML5 Logo for desktop version"
                 class="desktop-lang-list"
               />
             </li>
             <li>
               <img
-                src="../images/desktop-css.png"
+                src="./images/desktop-css.png"
                 alt="CSS Logo for desktop version"
                 class="desktop-lang-list"
               />
@@ -415,22 +423,22 @@
           </ul>
           <div class="frameworks">
             <h3>Frameworks</h3>
-            <img src="../images/lang-greator-icon.png" alt="More Icon" />
+            <img src="./images/lang-greator-icon.png" alt="More Icon" />
           </div>
           <img
-            src="../images/line-Separator-Bottom.png"
+            src="./images/line-Separator-Bottom.png"
             alt="Line Separator2"
             class="separator"
           /><br />
           <div class="frameworks">
             <h3>Skills</h3>
             <img
-              src="../images/lang-greator-icon.png"
+              src="./images/lang-greator-icon.png"
               alt="Greator than Icon"
             />
           </div>
           <img
-            src="../images/line-Separator-Bottom.png"
+            src="./images/line-Separator-Bottom.png"
             alt="Line Separator3"
             class="separator"
           />

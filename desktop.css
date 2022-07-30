@@ -57,13 +57,44 @@ body {
   color: black;
 }
 
+#popup-element-container {
+  margin-left: 60px;
+}
+
+.popup-image {
+  display: flex;
+
+  /* width: 100%; */
+  margin: 15px;
+}
+
+.popup-image img {
+  width: 100%;
+}
+
+.popup-all-below-image-div {
+  display: flex;
+  flex-direction: row;
+  margin: 0 15px 15px 15px;
+}
+
+.popup-link-btn-div {
+  display: flex;
+  justify-content: space-around;
+  width: 300px;
+}
+
+.popup-descrptn {
+  margin-right: 15px;
+}
+
 #backdrop.visible {
   display: none;
 }
 
 .sub-section-of-1 {
   display: flex;
-  background-image: url(../images/desktop-1st-screen-bkg.png);
+  background-image: url(./images/desktop-1st-screen-bkg.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -198,7 +229,7 @@ body {
 .about-my-self {
   display: flex;
   border-top-right-radius: 80px;
-  background-image: url(../images/desktop-about-myself-backg.png);
+  background-image: url(./images/desktop-about-myself-backg.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -328,7 +359,7 @@ body {
 .contact-form {
   display: flex;
   background: #6070ff;
-  background-image: url(../images/desktop-contact-form-bkg.png);
+  background-image: url(./images/desktop-contact-form-bkg.png);
   border-top-left-radius: 75px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -337,12 +368,14 @@ body {
 .contact-me-descrptn {
   width: 370px;
   text-align: left;
+  font-family: "Poppins", sans-serif;
   margin-bottom: 10px;
   font-size: 15px;
 }
 
 #Contact-me-title {
   display: flex;
+  font-family: "Poppins", sans-serif;
 }
 
 .form {
