@@ -4,8 +4,8 @@ const projects = [
     frame: {
       canopy: "Utop",
       disc: '<img src="./images/Counter.png" alt="counter year" />',
-      backDev: "backend dev",
-      year: 2015,
+      backDev: "front-end dev",
+      year: 2022,
     },
     Image: "./images/utop.png",
     description:
@@ -80,8 +80,8 @@ const projects = [
     frame: {
       canopy: "Utop",
       disc: '<img src="./images/Counter.png" alt="counter year" />',
-      backDev: "backend dev",
-      year: 2015,
+      backDev: "front-end dev",
+      year: 2022,
     },
     Image: "./images/utop.png",
     description:
