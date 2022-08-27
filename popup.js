@@ -9,7 +9,7 @@ const projects = [
     },
     Image: "./images/utop.png",
     description:
-      "Utop web is an online web development learning platform that aims to teach students from all over the world.",
+      "Utop-web is an online web development learning platform that aimed to teach Ethiopian students how to develop a website with their native language. it is built with Html5, CSS and JavaScript.",
     technoloies: {
       html: "html",
       css: "css",
@@ -85,7 +85,7 @@ const projects = [
     },
     Image: "./images/utop.png",
     description:
-      "Utop web is an online web development learning platform that aims to teach students from all over the world.",
+      "Utop-web is an online web development learning platform that aimed to teach Ethiopian students how to develop a website with their native language. it is built with Html5, CSS and JavaScript.",
     technoloies: {
       html: "html",
       css: "css",
