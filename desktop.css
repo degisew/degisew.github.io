@@ -155,12 +155,15 @@ body {
 }
 
 .desktop-right-block-1 {
+  width: auto;
   margin: 15px 15px 15px 25px;
   border-radius: 8px;
   order: 2;
 }
 
 .desktop-left-block-1 {
+  width: 500px;
+  min-height: 350px;
   margin: 15px 15px 15px 25px;
   border-radius: 8px;
 }
@@ -175,6 +178,7 @@ body {
 
 .card-images {
   width: 100%;
+  min-height: inherit;
 }
 
 .desktop-sub-block-3 {
